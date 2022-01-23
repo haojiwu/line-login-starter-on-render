@@ -1,0 +1,3 @@
+[submodule "line-login-starter"]
+	path = line-login-starter
+	url = https://github.com/line/line-login-starter

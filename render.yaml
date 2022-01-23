@@ -1,0 +1,12 @@
+services:
+- type: web
+  name: line-login-starter
+  env: docker
+  dockerContext: ./line-login-starter
+  plan: free
+  autoDeploy: false
+  envVars:
+  - key: LINECORP_PLATFORM_CHANNEL_CHANNELID
+    sync: false
+  - key: LINECORP_PLATFORM_CHANNEL_CHANNELSECRET
+    sync: false
